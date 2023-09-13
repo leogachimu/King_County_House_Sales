@@ -1,14 +1,10 @@
-# Phase 2 Project Submission
+# Phase 2 Project
 
 # BUSINESS ANALYSIS OF HOUSE SALES IN KING COUNTY, WASHINGTON 
-## AUTHORS: 
-## <u>Group 24 Members</u>
-*1. Samuel Gichanga*<br>
-*2. Leonard Gachimu*<br>
-*3. Moses Thiong'o*<br>
-*4. Evangeline Ngunjiri*<br>
+## AUTHOR: 
+*1. Leonard Gachimu*<br>
 
-Part Time Data Science Program
+Flatiron School Data Science Program
 
 Due date: 11/09/2023
 
@@ -18,7 +14,7 @@ Technical Mentor: **Stella Waithera**
 
 ## PROJECT OVERVIEW
 
-This project seeks build a data analytics model for a real estate agency that will help homeowners buy and/or sell homes in King County, Washington.
+This project seeks build a multiple linear regression model for a real estate agency that will help homeowners buy and/or sell homes in King County, Washington.
 
 ## BUSINESS PROBLEM
 
@@ -28,7 +24,7 @@ This project seeks build a data analytics model for a real estate agency that wi
 
 >For a real estate firm, the challenge is to make informed pricing decisions that will account for all the complex interrelated factors. This can lead them to **misadvise home buyers** and sellers as well as **unnecessary loss of business** opportunities and reputation.
 
->Our project seeks to help [Team Howlett Real Estate Agents](https://www.teamhowlett.com/), a real estate agency in King County, make more informed and data-driven pricing strategies for homes in King County.
+>My project seeks to help [Team Howlett Real Estate Agents](https://www.teamhowlett.com/), a real estate agency in King County, make more informed and data-driven pricing strategies for homes in King County.
 ## BUSINESS UNDERSTANDING
 **Specific Factors that Influence the Price of a Home in King County:**
 1.	Location-specific conditions include traffic, freeway access, noise, crime, sun exposure, views, parking, neighboring homes, vacant lots, access to quality schools, parks, shops, restaurants.
@@ -44,7 +40,7 @@ This project seeks build a data analytics model for a real estate agency that wi
 This is a real estate agency in King County, Washington, that guides buyer and sellers through the entire real estate transaction, from start to finish.
 
 ## BUSINESS OBJECTIVES
-To complete this project, our main business objectives will be the following:
+To complete this project, my main business objectives will be the following:
 >To build a data analytics model for Team Howlett Real Estate Agents, a real estate agency that helps homeowners buy and/or sell homes in King County, Washington.<br>
 
 >To develop a model that will help in identifying the set of attributes that will realize the best value to a home buyer and optimal returns to the home seller.<br>
@@ -95,35 +91,35 @@ The dataset kc_house_data.csv, has **21,597 rows** and **21 columns**. Below is 
 Execution of the project involved the following:
 
 ### Data Understanding and Cleaning
-We explored the datasets to understand their schema, size, data types, and examine the presence of invalid or inconsistent data such as missing values, duplicates, placeholders, and outliers.
+I explored the datasets to understand their schema, size, data types, and examine the presence of invalid or inconsistent data such as missing values, duplicates, placeholders, and outliers.
 
 ### Data Transformation
-We transformed the data into DataFrames using the Pandas library in Python and we performed different transformations and analyses to suit.
+I transformed the data into DataFrames using the Pandas library in Python and performed different transformations and analyses to suit.
 
 ### Feature Engineering
-Based on the avaliable variables, we engineered new variables that would better suit our analysis and modelling.
+Based on the avaliable variables, I engineered new variables that would better suit my analysis and modelling.
 
 ### Data Analysis 
-We analyzed the relationship between the most influential predictor variables and price, which is the response variable. 
+I analyzed the relationship between the most influential predictor variables and price, which is the response variable. 
 
 ### Hypothesis Testing
-We tested the statistical significance of the various findings from our analysis.
+I tested the statistical significance of the various findings from my analysis.
 
 ### Multiple Regression Modelling
-We build the best-fitting model for inferring the relationship between predictor variables and the response variable.
+I built the best-fitting model for inferring the relationship between predictor variables and the response variable.
 
 ### Data Visualization
-We used various visualization methods such as bar plots, histograms, and scatter plots to display our findings and facilitate interpretation.
+I used various visualization methods such as bar plots, histograms, and scatter plots to display my findings and facilitate interpretation.
 
 ### Data Interpretation
-We interpreted the various findings and visualizations to build a recommendation for a real estate agency.
+I interpreted the various findings and visualizations to build a recommendation for a real estate agency.
 
 ## THE FINDINGS
 ### 1. The relationship between weather season and sales performance
 
 ![Distribution of sales volume by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/68d8ca9e-0d1e-4ae6-b955-002a5aeb2ef0)
 
-Our analysis reveals that there is a significant variation in the volume of sales across the months in year.<br>
+My analysis reveals that there is a significant variation in the volume of sales across the months in year.<br>
 i.) January and February starts off the year with low sales of around **1,000 houses per month**.<br>
 ii.) The volume starts to rise in March, where it is about **1,500 houses**.<br>
 iii.) From April to July, the volume is about **2,000 houses per month**.<br>
@@ -141,16 +137,16 @@ iii.) The mean price drops slightly in August and September, rises slightly in O
 
 ![Distribution of sales volume by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/40bf1241-f1d0-4638-86dd-b8c312847343)
 
-Our analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about **8,000 houses**. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around **100** or fewer.
+My analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about **8,000 houses**. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around **100** or fewer.
 
 ![Distribution of mean sale price by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/8f714ddd-5634-42d1-8489-a7ea486936e5)
 
-Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between **$250,000** to **$500,000**. From grade 9 to 13, the mean sale price rises from around **$600,000** to over **$3,500,000**.
+My analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between **$250,000** to **$500,000**. From grade 9 to 13, the mean sale price rises from around **$600,000** to over **$3,500,000**.
 
 ### 3. The relationship between number of bedrooms and sales performance
-On all social media platforms and social environments, almost everyone wants to know the number of bedrooms when they're scouting for houses. We therefore saw the need to find out if there is a relationship between the number of bedrooms and sales perfomance.
+On all social media platforms and social environments, almost everyone wants to know the number of bedrooms when they're scouting for houses. I, therefore, saw the need to find out if there is a relationship between the number of bedrooms and sales perfomance.
 
-Our analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:<br>
+My analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:<br>
 i.) The sales volume, which follows a normal distribution with a peak volume of **8,000 houses** at the median number of 3 bedrooms.<br>
 
 ![Distribution of sales volume by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/312e4db1-87b3-4928-8b84-3a706b0c7af7)
@@ -163,7 +159,7 @@ ii.) The distribution of mean sale price by number of bedrooms, which shows that
 
 ![Regression Plots of the Best Fitting Multiple Linear Regression Model](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/52e8011b-2116-44f9-a042-52a17d4f7f85)
 
-From our regression modelling, we found out that the five influential factors affecting house sale volume and mean sale price are:
+From my regression modelling, I found out that the five influential factors affecting house sale volume and mean sale price are:
 
 i.) The size of the interior living area in square feet<br>
 ii.) The grade of the house, which is a classification by construction quality<br>
@@ -172,11 +168,11 @@ iv.) The average size of interior living space for the closest 15 houses, in squ
 v.) The number of bathrooms<br>
 
 ### 5. Distribution of house prices and house sale volumes around the county
-We created a heatmap that shows that the top 20 locations in count of sales are in the north western region of Seattle.
+I created a heatmap that shows that the top 20 locations in count of sales are in the north western region of Seattle.
 
 ![Heatmap for the Distribution of Top House Sale Volumes in King County](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/d4da93d0-f81f-45b8-a39a-be310f0f4682)
 
-We also created a heatmap that reveals that all the top 10 mean sale prices came from the north western region of Seattle.
+I also created a heatmap that reveals that all the top 10 mean sale prices came from the north western region of Seattle.
 
 ![Heatmap for the Distribution of Top Mean House Sale Price in King County](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/a5064611-c13a-4a46-a3d7-7eca0bf62215)
 
@@ -198,7 +194,7 @@ This trend is to be expected, since Seattle is the most populous and most advanc
 ## CONCLUSION
 ### The Set of Variables with the Highest Effect on Sales and Mean Sale Price
 
-From our regression modelling, we found out that the five influential factors affecting house sale volume and mean sale price are:<br>
+From my regression modelling, I found out that the five influential factors affecting house sale volume and mean sale price are:<br>
 i.) The size of the interior living area in square feet<br>
 ii.) The grade of the house, which is a classification by construction quality<br>
 iii.) The square footage of the house excluding the basement<br>
@@ -207,9 +203,9 @@ v.) The number of bathrooms<br>
 
 ### Seasonal Variation of Sales Performance
 
-The northwestern States are characterized by sub-zero degree Winter months, which leads to more people willing to sell their houses so that they can move to warmer regions in the south. There are also fewer potential buyers during the colder months.
+The northwestern States are characterized by sub-zero degree Winter months, which leads to more people looking to sell their houses so that they can move to warmer regions in the south. There are also fewer potential buyers during the colder months.
 
-Our analysis reveals that there is a variation in the volume of sales across the months in year.<br>
+My analysis reveals that there is a variation in the volume of sales across the months in year.<br>
 
 i.) January and February starts off the year with low sales of around **1,000 houses per month**.<br>
 ii.) The volume starts to rise in March, where it is about **1,500 houses**.<br>
@@ -233,15 +229,15 @@ iii.) The mean price drops slightly in August and September, rises slightly in O
 
 Grade is a classification by construction quality which refers to the types of materials used and the quality of workmanship. It is regulated by the King County Local government, and therefore, this is an important factor to anyone looking to buy a house.
 
-Our analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about 8,000 houses. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around 100 or fewer.
+My analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about 8,000 houses. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around 100 or fewer.
 
-Our analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between **$250,000** to **$500,000**. From grade 9 to 13, the mean sale price rises from around **$600,000** to over **$3,500,000**.
+My analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between **$250,000** to **$500,000**. From grade 9 to 13, the mean sale price rises from around **$600,000** to over **$3,500,000**.
 
 ### Number of Bedrooms
 
-On all social media platforms and social environments, almost everyone wants to know the number of bedrooms when they're scouting for houses. We therefore saw the need to find out if there is a relationship between the number of bedrooms and sales perfomance.
+On all social media platforms and social environments, almost everyone wants to know the number of bedrooms when they're scouting for houses. I, therefore, saw the need to find out if there is a relationship between the number of bedrooms and sales perfomance.
 
-Our analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:
+My analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:
 
 i.) The sales volume, which follows a normal distribution with a peak volume of 8,000 houses at the median number of 3 bedrooms.<br>
 ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is **$1,200,000** at 8 bedrooms. For houses with 3 bedrooms, the mean price is only **$465,000**.
@@ -262,13 +258,13 @@ iii.) The square footage of the house excluding the basement<br>
 iv.) The average size of interior living space for the closest 15 houses, in square feet<br>
 v.) The number of bathrooms
 
-We would advise a buyer to consider buying a house in the offpeak months of January, February, September, October, November, or December, since this is the period they're likely to get a significant discount.
-To a seller, we advise them to consider selling in the peak months from March to August, since this is the period when the demand is high and they're also likely to sell at a significant margin compared to the offpeak months.
+I would advise a buyer to consider buying a house in the offpeak months of January, February, September, October, November, or December, since this is the period they're likely to get a significant discount.
+To a seller, I would advise them to consider selling in the peak months from March to August, since this is the period when the demand is high and they're also likely to sell at a significant margin compared to the offpeak months.
 
-There is a significant difference in mean sale price between different house grades. Therefore, if a buyer wants a low-budget house of around $500,000 or less, we would advise them to consider houses between grade 3 and 8. If they have the budget for a more expensive house above $500,000, we would advise them to go for between grade 9 and 13.
+There is a significant difference in mean sale price between different house grades. Therefore, if a buyer wants a low-budget house of around $500,000 or less, I would advise them to consider houses between grade 3 and 8. If they have the budget for a more expensive house above $500,000, I would advise them to go for between grade 9 and 13.
 For a seller wishing to fetch the highest price in the market, they should go for grade 13 houses. If they want to sell low-priced houses quickly, then they should sell houses with between grades 3 and 8.
 
-If a buyer wants a low-budget house (between $300,000 and $700,000), we would advise them to consider houses with between 1 and 4 bedrooms. If they have the budget for a more expensive house above $800,000, we would advise them to go for between 5 and 10 bedrooms.
+If a buyer wants a low-budget house (between $300,000 and $700,000), I would advise them to consider houses with between 1 and 4 bedrooms. If they have the budget for a more expensive house above $800,000, I would advise them to go for between 5 and 10 bedrooms.
 For a seller wishing to fetch the highest price in the market, they should go for 8-bedroom houses. If they want to sell low-priced houses quickly, then they should sell houses with between 1 and 4 bedrooms.
 
 If a buyer wants a wider variety of high-grade homes on sale, they should search in Seattle region. However, this is also the region with the highest mean sale price.
@@ -276,27 +272,27 @@ Therefore, overall the highest real estate business is to be found in Seattle an
 
 ## STUDY LIMITATIONS
 
-Our best multiple linear regression model achieved an R-squared value of 0.546 and an overall p-value of 0.00. These metrics suffice for the present inferential modelling but are lower than the standard required for predictive modelling which would require at least an R-squared of 0.8.
+My best multiple linear regression model achieved an R-squared value of 0.546 and an overall p-value of 0.00. These metrics suffice for the present inferential modelling but are lower than the standard required for predictive modelling which would require at least an R-squared of 0.8.
 
-We did not have data about the profitability per sale. Therefore, we could not ascertain whether the distribution of mean sale price or the sales volume correlates with profitability.
+I did not have data about the profitability per sale. Therefore, I could not ascertain whether the distribution of mean sale price or the sales volume correlates with profitability.
 Moreover, buildings of better quality (higher grade) cost more to build per unit of measure and therefore, it could be possible that their profitability is not as high as lower-grade houses.
 
-We did not have data about proximity to amenities such as schools, transport infrastructure, and so on, and therefore, we could not determine how they would affect sales performance.
+I did not have data about proximity to amenities such as schools, transport infrastructure, and so on, and therefore, I could not determine how they would affect sales performance.
 
-The data is not augmented with data about enabling factors such as the state of the economy in County and the interest rates.
+The data is not augmented with data about enabling factors such as the state of the economy in the County and the prevailing interest rates.
 
 ## RECOMMENDATIONS FOR FUTURE RESEARCH
 
 Future studies should get data about profitability of the house sales, so as to find out the relationship between sales performance and profitability. This would provde a real estate agency with more solid advice about sales performance.
 
-Future studies should also find out proximity of amenities such as schools, and transport infrastructure. These could be confounding variables that could have skewed the sales performance. Also, the current report does not help a buyer to know if a house of their choice will afford them these proximity to these important amenities.
+Future studies should also find out proximity of amenities such as schools, and transport infrastructure. These could be confounding variables that could have skewed the sales performance. Also, the current report does not help a buyer to know if a house of their choice will afford them proximity to these important amenities.
 
 Augmenting the dataset with data about more enabling factors such as the state of the economy in County and the interest rates. This would enable a seller to know the best times to sell and when not to sell. It would also inform a buyer about the best times to buy or take up mortgage.
 
 ## FOR MORE INFORMATION
 
 For further analysis and the highlights, kindly visit the following:
-1. Our Jupyter notebook file titled student.ipynb in this repository.
-2. Our presentation pdf in this repository. Kindly, if the pdf does not open the first time, please reload it and it will be rendered.
-3. Our presentation webpage at this link [https://arcg.is/9LDnb](https://arcg.is/9LDnb) 
+1. My Jupyter notebook file titled king_county_house_sales.ipynb in this repository.
+2. My presentation pdf in this repository. Kindly, if the pdf does not open the first time, please reload it and it will be rendered.
+3. My presentation webpage at this link [https://arcg.is/9LDnb](https://arcg.is/9LDnb) 
 
