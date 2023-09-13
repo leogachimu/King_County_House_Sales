@@ -117,6 +117,8 @@ I interpreted the various findings and visualizations to build a recommendation 
 ## THE FINDINGS
 ### 1. The relationship between weather season and sales performance
 
+![Distribution of sales volume by month](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/1075f7cf-1f7b-490c-a4b3-4f4f660abb5d)
+
 ![Distribution of sales volume by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/68d8ca9e-0d1e-4ae6-b955-002a5aeb2ef0)
 
 My analysis reveals that there is a significant variation in the volume of sales across the months in year.<br>
@@ -293,6 +295,3 @@ Augmenting the dataset with data about more enabling factors such as the state o
 
 For further analysis and the highlights, kindly visit the following:
 1. My Jupyter notebook file titled king_county_house_sales.ipynb in this repository.
-2. My presentation pdf in this repository. Kindly, if the pdf does not open the first time, please reload it and it will be rendered.
-3. My presentation webpage at this link [https://arcg.is/9LDnb](https://arcg.is/9LDnb) 
-
