@@ -119,8 +119,6 @@ I interpreted the various findings and visualizations to build a recommendation 
 
 ![Distribution of sales volume by month](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/1075f7cf-1f7b-490c-a4b3-4f4f660abb5d)
 
-![Distribution of sales volume by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/68d8ca9e-0d1e-4ae6-b955-002a5aeb2ef0)
-
 My analysis reveals that there is a significant variation in the volume of sales across the months in year.<br>
 i.) January and February starts off the year with low sales of around **1,000 houses per month**.<br>
 ii.) The volume starts to rise in March, where it is about **1,500 houses**.<br>
@@ -129,7 +127,7 @@ iv.) May has the highest volume at above **2,000 houses**.<br>
 v.) The volume starts to decline to around **1,700 houses** in August and **1,500 houses** in September.<br>
 vi.) There is a slight increase in October, but the price then drops through November and December.
 
-![Distribution of mean sale price by month](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/a311d00d-af9e-42e3-a0b0-b0fe9fdee95b)
+![Distribution of mean sale price by month](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/f3e525f9-cb11-4a78-b328-d2bd35f1aefd)
 
 The distribution of mean sale prices over the months in a year also shows that there are significant differences.<br>
 i.) The months of January and February have lower mean prices of between **$500,000** and **$525,000**.<br>
@@ -137,11 +135,11 @@ ii.) The mean price from March to August is around **$550,000** or higher. April
 iii.) The mean price drops slightly in August and September, rises slightly in October, and then drops again in November and December.<br>
 ### 2. Relationship between house grade and sales performance
 
-![Distribution of sales volume by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/40bf1241-f1d0-4638-86dd-b8c312847343)
+![Distribution of sales volume by grade](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/787acdc7-2f3c-44d3-93ec-91d25950feb0)
 
 My analysis of sales volume by grade appears to follow a normal distribution with grade 7 having the peak sales volume of about **8,000 houses**. The lower grades of 3, and 4, and the higher grades of 11 and 12 each have sales volumes around **100** or fewer.
 
-![Distribution of mean sale price by grade](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/8f714ddd-5634-42d1-8489-a7ea486936e5)
+![Distribution of mean sale price by grade](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/b1be7b91-2840-49d5-a14c-90485cf2ef34)
 
 My analysis has also shown that there is a significant difference in mean sale price among different house grades. Between grade 3 and 8, the mean price is between **$250,000** to **$500,000**. From grade 9 to 13, the mean sale price rises from around **$600,000** to over **$3,500,000**.
 
@@ -151,15 +149,15 @@ On all social media platforms and social environments, almost everyone wants to 
 My analysis of the relationship between sales and number of bedrooms shows that buyers and sellers have two major factors to consider:<br>
 i.) The sales volume, which follows a normal distribution with a peak volume of **8,000 houses** at the median number of 3 bedrooms.<br>
 
-![Distribution of sales volume by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/312e4db1-87b3-4928-8b84-3a706b0c7af7)
+![Distribution of sales volume by number of bedrooms](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/52e228e2-d239-42dc-ba03-68a675b4dd14)
 
 ii.) The distribution of mean sale price by number of bedrooms, which shows that the peak mean price is **$1,200,000** at 8 bedrooms. For houses with 3 bedrooms, the mean price is only **$465,000**.<br>
 
-![Distribution of mean sale price by number of bedrooms](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/84a74027-035d-44b8-8909-a0af704e18d3)
+![Distribution of mean sale price by number of bedrooms](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/afc9f8dd-7944-41eb-be13-5fa02a55ba12)
 
 ### 4. The set of variables has the highest influence on the sale price of a house
 
-![Regression Plots of the Best Fitting Multiple Linear Regression Model](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/52e8011b-2116-44f9-a042-52a17d4f7f85)
+![Regression Plots of the Best Fitting Multiple Linear Regression Model](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/e679ab80-f261-4403-9990-abb78c2aa83f)
 
 From my regression modelling, I found out that the five influential factors affecting house sale volume and mean sale price are:
 
@@ -172,18 +170,18 @@ v.) The number of bathrooms<br>
 ### 5. Distribution of house prices and house sale volumes around the county
 I created a heatmap that shows that the top 20 locations in count of sales are in the north western region of Seattle.
 
-![Heatmap for the Distribution of Top House Sale Volumes in King County](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/d4da93d0-f81f-45b8-a39a-be310f0f4682)
+![Heatmap for the Distribution of Top House Sale Volumes in King County](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/b49571cd-8772-4f1f-a363-ddb850df59f0)
 
 I also created a heatmap that reveals that all the top 10 mean sale prices came from the north western region of Seattle.
 
-![Heatmap for the Distribution of Top Mean House Sale Price in King County](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/a5064611-c13a-4a46-a3d7-7eca0bf62215)
+![Heatmap for the Distribution of Top Mean House Sale Price in King County](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/7faef8f1-d130-4a7c-8286-f97485dbf642)
 
 This trend is to be expected, since Seattle is the most populous and most advanced city in King County and in the Washington State in general. Therefore, the number of homes on sale, the demand for houses, and the ability to purchase more expensive homes is to be found in Seattle.
 
 ### 6. 3D Scatter Plots
 3D scatter plots of different combinations of the most influential predictor variables show a high correlation among them.
 
-![3D Scatter Plots](https://github.com/leogachimu/dsc-phase-2-project/assets/122081776/3f87234b-5bcb-4dd3-b90d-e2ccbb047aed)
+![3D Scatter Plots](https://github.com/leogachimu/King_County_House_Sales/assets/122081776/d9b9ae4c-7790-48b4-ac01-600f60496f04)
 
 3D scatter plot 1 shows that at different grades, the sale price increases with an increase in both sqft_living and sqft_above. However, the count of sales is denser between grade 6 and 8, and at the lower levels of both sqft_living and sqft_above.
 
