@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1f58526602e9ba4248a0c920978cd5fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1f58526602e9ba4248a0c920978cd5fe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1f58526602e9ba4248a0c920978cd5fe = L.map(
+                "map_1f58526602e9ba4248a0c920978cd5fe",
+                {
+                    center: [47.55304714285716, -122.21004285714285],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_24d619554947c354816ab2d5857d0263 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+            var marker_de33699f3a85e690bb47653fe31e7be1 = L.marker(
+                [47.6648, -122.343],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_103eade092f0cb6b48e94449ddfe968b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_844b21822ecd6237af8b0a21540e75ec = $(`<div id="html_844b21822ecd6237af8b0a21540e75ec" style="width: 100.0%; height: 100.0%;">Zip Code: 98103, Latitude: 47.664800, Longitude: -122.343000,                  Top 1 in Sales = 538 houses</div>`)[0];
+            popup_103eade092f0cb6b48e94449ddfe968b.setContent(html_844b21822ecd6237af8b0a21540e75ec);
+        
+
+        marker_de33699f3a85e690bb47653fe31e7be1.bindPopup(popup_103eade092f0cb6b48e94449ddfe968b)
+        ;
+
+        
+    
+    
+            var marker_b06d0fb64af5e4c1dba59c56bfff56e8 = L.marker(
+                [47.3684, -122.031],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_59270efc7c76fb0398cf6ed64706d391 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccec37268ede19b55f9978b81aff2e8b = $(`<div id="html_ccec37268ede19b55f9978b81aff2e8b" style="width: 100.0%; height: 100.0%;">Zip Code: 98038, Latitude: 47.368400, Longitude: -122.031000,                  Top 2 in Sales = 525 houses</div>`)[0];
+            popup_59270efc7c76fb0398cf6ed64706d391.setContent(html_ccec37268ede19b55f9978b81aff2e8b);
+        
+
+        marker_b06d0fb64af5e4c1dba59c56bfff56e8.bindPopup(popup_59270efc7c76fb0398cf6ed64706d391)
+        ;
+
+        
+    
+    
+            var marker_be402b057ebc703dd5cf721c450d6bb8 = L.marker(
+                [47.69, -122.292],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_498ec3779374481dc70db533293969fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_598d7f722482e37d34038ed7c568894a = $(`<div id="html_598d7f722482e37d34038ed7c568894a" style="width: 100.0%; height: 100.0%;">Zip Code: 98115, Latitude: 47.690000, Longitude: -122.292000,                  Top 3 in Sales = 513 houses</div>`)[0];
+            popup_498ec3779374481dc70db533293969fa.setContent(html_598d7f722482e37d34038ed7c568894a);
+        
+
+        marker_be402b057ebc703dd5cf721c450d6bb8.bindPopup(popup_498ec3779374481dc70db533293969fa)
+        ;
+
+        
+    
+    
+            var marker_dc42b82009173a1f06067f032234d6e4 = L.marker(
+                [47.7073, -122.11],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_40cadc7ee58882210a4a746aef7f1660 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca9e83527520ace47162694dc4168ec = $(`<div id="html_bca9e83527520ace47162694dc4168ec" style="width: 100.0%; height: 100.0%;">Zip Code: 98052, Latitude: 47.707300, Longitude: -122.110000,                  Top 4 in Sales = 506 houses</div>`)[0];
+            popup_40cadc7ee58882210a4a746aef7f1660.setContent(html_bca9e83527520ace47162694dc4168ec);
+        
+
+        marker_dc42b82009173a1f06067f032234d6e4.bindPopup(popup_40cadc7ee58882210a4a746aef7f1660)
+        ;
+
+        
+    
+    
+            var marker_2333f953801fd497d28bebb792a0fa11 = L.marker(
+                [47.6823, -122.368],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_d0cd07a8cbddf38982cc08b4f7aa400a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_571fc7d24b521191028f40bc589d49fc = $(`<div id="html_571fc7d24b521191028f40bc589d49fc" style="width: 100.0%; height: 100.0%;">Zip Code: 98117, Latitude: 47.682300, Longitude: -122.368000,                  Top 5 in Sales = 495 houses</div>`)[0];
+            popup_d0cd07a8cbddf38982cc08b4f7aa400a.setContent(html_571fc7d24b521191028f40bc589d49fc);
+        
+
+        marker_2333f953801fd497d28bebb792a0fa11.bindPopup(popup_d0cd07a8cbddf38982cc08b4f7aa400a)
+        ;
+
+        
+    
+    
+            var marker_9f27608cfdc3e484240e6281b790d56a = L.marker(
+                [47.3663, -122.114],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_c15a7b3d0ed18f58dec1f15d07945c48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f81915d91aa3da95791bdd7c80b12612 = $(`<div id="html_f81915d91aa3da95791bdd7c80b12612" style="width: 100.0%; height: 100.0%;">Zip Code: 98042, Latitude: 47.366300, Longitude: -122.114000,                  Top 6 in Sales = 485 houses</div>`)[0];
+            popup_c15a7b3d0ed18f58dec1f15d07945c48.setContent(html_f81915d91aa3da95791bdd7c80b12612);
+        
+
+        marker_9f27608cfdc3e484240e6281b790d56a.bindPopup(popup_c15a7b3d0ed18f58dec1f15d07945c48)
+        ;
+
+        
+    
+    
+            var marker_0e4613db349fa2c951995a1b5a9051c1 = L.marker(
+                [47.7362, -122.179],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_51400eafed56c015bfdb3c02fb710533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f507545d08ed6e158786d4dfff56acea = $(`<div id="html_f507545d08ed6e158786d4dfff56acea" style="width: 100.0%; height: 100.0%;">Zip Code: 98034, Latitude: 47.736200, Longitude: -122.179000,                  Top 7 in Sales = 484 houses</div>`)[0];
+            popup_51400eafed56c015bfdb3c02fb710533.setContent(html_f507545d08ed6e158786d4dfff56acea);
+        
+
+        marker_0e4613db349fa2c951995a1b5a9051c1.bindPopup(popup_51400eafed56c015bfdb3c02fb710533)
+        ;
+
+        
+    
+    
+            var marker_9d55ba10217c12d38a55acc03661449e = L.marker(
+                [47.5474, -122.291],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_b0318fabc262a4dae8d5934602f0b324 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfbeab6c85bf37f90a4b53544c685d07 = $(`<div id="html_dfbeab6c85bf37f90a4b53544c685d07" style="width: 100.0%; height: 100.0%;">Zip Code: 98118, Latitude: 47.547400, Longitude: -122.291000,                  Top 8 in Sales = 445 houses</div>`)[0];
+            popup_b0318fabc262a4dae8d5934602f0b324.setContent(html_dfbeab6c85bf37f90a4b53544c685d07);
+        
+
+        marker_9d55ba10217c12d38a55acc03661449e.bindPopup(popup_b0318fabc262a4dae8d5934602f0b324)
+        ;
+
+        
+    
+    
+            var marker_82760de3f237aeb42afcee1268c98d4c = L.marker(
+                [47.3066, -122.371],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_8e08cbf38da558e775b0e7407d64d670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdfaf0f612a9a774c87a4bacb9b60f11 = $(`<div id="html_cdfaf0f612a9a774c87a4bacb9b60f11" style="width: 100.0%; height: 100.0%;">Zip Code: 98023, Latitude: 47.306600, Longitude: -122.371000,                  Top 9 in Sales = 443 houses</div>`)[0];
+            popup_8e08cbf38da558e775b0e7407d64d670.setContent(html_cdfaf0f612a9a774c87a4bacb9b60f11);
+        
+
+        marker_82760de3f237aeb42afcee1268c98d4c.bindPopup(popup_8e08cbf38da558e775b0e7407d64d670)
+        ;
+
+        
+    
+    
+            var marker_69d83ca1a3fb2928d547b4c4d34363df = L.marker(
+                [47.5707, -122.128],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_607e3600ecd00cb22069b79b63300581 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dae6c4c42d64afc0258cd0a395f4da5 = $(`<div id="html_9dae6c4c42d64afc0258cd0a395f4da5" style="width: 100.0%; height: 100.0%;">Zip Code: 98006, Latitude: 47.570700, Longitude: -122.128000,                  Top 10 in Sales = 437 houses</div>`)[0];
+            popup_607e3600ecd00cb22069b79b63300581.setContent(html_9dae6c4c42d64afc0258cd0a395f4da5);
+        
+
+        marker_69d83ca1a3fb2928d547b4c4d34363df.bindPopup(popup_607e3600ecd00cb22069b79b63300581)
+        ;
+
+        
+    
+    
+            var marker_daef8edff43dbd5b6a8f56529e2b9377 = L.marker(
+                [47.7025, -122.341],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_7872d507b80a90bae324df330f0f5437 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6969524ab7dad9f688f26db973013d15 = $(`<div id="html_6969524ab7dad9f688f26db973013d15" style="width: 100.0%; height: 100.0%;">Zip Code: 98133, Latitude: 47.702500, Longitude: -122.341000,                  Top 11 in Sales = 427 houses</div>`)[0];
+            popup_7872d507b80a90bae324df330f0f5437.setContent(html_6969524ab7dad9f688f26db973013d15);
+        
+
+        marker_daef8edff43dbd5b6a8f56529e2b9377.bindPopup(popup_7872d507b80a90bae324df330f0f5437)
+        ;
+
+        
+    
+    
+            var marker_7f8539b71f089a714f98348d27b75e13 = L.marker(
+                [47.5059, -122.149],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_6f68358b748072c1e7ed612892b14293 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f4745d5e7dabd38e7324d1aad3377c2 = $(`<div id="html_3f4745d5e7dabd38e7324d1aad3377c2" style="width: 100.0%; height: 100.0%;">Zip Code: 98059, Latitude: 47.505900, Longitude: -122.149000,                  Top 12 in Sales = 407 houses</div>`)[0];
+            popup_6f68358b748072c1e7ed612892b14293.setContent(html_3f4745d5e7dabd38e7324d1aad3377c2);
+        
+
+        marker_7f8539b71f089a714f98348d27b75e13.bindPopup(popup_6f68358b748072c1e7ed612892b14293)
+        ;
+
+        
+    
+    
+            var marker_1dc145d74a56b9457a11e0a62cdf3722 = L.marker(
+                [47.7481, -122.3],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_d42dc934669e1ceb30072a8259a54ea5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d32c8cb98297c8bc23e31e01c4225e0c = $(`<div id="html_d32c8cb98297c8bc23e31e01c4225e0c" style="width: 100.0%; height: 100.0%;">Zip Code: 98155, Latitude: 47.748100, Longitude: -122.300000,                  Top 13 in Sales = 397 houses</div>`)[0];
+            popup_d42dc934669e1ceb30072a8259a54ea5.setContent(html_d32c8cb98297c8bc23e31e01c4225e0c);
+        
+
+        marker_1dc145d74a56b9457a11e0a62cdf3722.bindPopup(popup_d42dc934669e1ceb30072a8259a54ea5)
+        ;
+
+        
+    
+    
+            var marker_bd085f8c1c4cdc6afc99aeaa47ccc62d = L.marker(
+                [47.4276, -122.157],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_ddbf2f8e7a901d838bbd1fbc6e3938a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad5c905af3415fc948df4d8039203540 = $(`<div id="html_ad5c905af3415fc948df4d8039203540" style="width: 100.0%; height: 100.0%;">Zip Code: 98058, Latitude: 47.427600, Longitude: -122.157000,                  Top 14 in Sales = 394 houses</div>`)[0];
+            popup_ddbf2f8e7a901d838bbd1fbc6e3938a1.setContent(html_ad5c905af3415fc948df4d8039203540);
+        
+
+        marker_bd085f8c1c4cdc6afc99aeaa47ccc62d.bindPopup(popup_ddbf2f8e7a901d838bbd1fbc6e3938a1)
+        ;
+
+        
+    
+    
+            var marker_f013448569c63cab004ac5594712d647 = L.marker(
+                [47.6168, -122.045],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_46c008271d486032125308fc6fbd8d5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c01b05caa86a346afc48b6c433cbeba = $(`<div id="html_1c01b05caa86a346afc48b6c433cbeba" style="width: 100.0%; height: 100.0%;">Zip Code: 98074, Latitude: 47.616800, Longitude: -122.045000,                  Top 15 in Sales = 380 houses</div>`)[0];
+            popup_46c008271d486032125308fc6fbd8d5b.setContent(html_1c01b05caa86a346afc48b6c433cbeba);
+        
+
+        marker_f013448569c63cab004ac5594712d647.bindPopup(popup_46c008271d486032125308fc6fbd8d5b)
+        ;
+
+        
+    
+    
+            var marker_70504b94dc7e83332ed3d93393097d56 = L.marker(
+                [47.6477, -122.182],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_20c896b516cffc395fe37b05f621bfc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16530a3a51f1a5b8cf03176947f92163 = $(`<div id="html_16530a3a51f1a5b8cf03176947f92163" style="width: 100.0%; height: 100.0%;">Zip Code: 98033, Latitude: 47.647700, Longitude: -122.182000,                  Top 16 in Sales = 376 houses</div>`)[0];
+            popup_20c896b516cffc395fe37b05f621bfc3.setContent(html_16530a3a51f1a5b8cf03176947f92163);
+        
+
+        marker_70504b94dc7e83332ed3d93393097d56.bindPopup(popup_20c896b516cffc395fe37b05f621bfc3)
+        ;
+
+        
+    
+    
+            var marker_8c9a08fb442e224f5f005033655416d4 = L.marker(
+                [47.5391, -122.07],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_b69719157b66c76703a958a85ab5f367 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e0361228b8bf6f415bee57c4c9d0005 = $(`<div id="html_5e0361228b8bf6f415bee57c4c9d0005" style="width: 100.0%; height: 100.0%;">Zip Code: 98027, Latitude: 47.539100, Longitude: -122.070000,                  Top 17 in Sales = 369 houses</div>`)[0];
+            popup_b69719157b66c76703a958a85ab5f367.setContent(html_5e0361228b8bf6f415bee57c4c9d0005);
+        
+
+        marker_8c9a08fb442e224f5f005033655416d4.bindPopup(popup_b69719157b66c76703a958a85ab5f367)
+        ;
+
+        
+    
+    
+            var marker_c192fe747d44aeed850516fb74053d5d = L.marker(
+                [47.5301, -122.18],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_87c72e3a163197384422e023a192cada = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d09b681e81528274691f0a35cc164a4b = $(`<div id="html_d09b681e81528274691f0a35cc164a4b" style="width: 100.0%; height: 100.0%;">Zip Code: 98056, Latitude: 47.530100, Longitude: -122.180000,                  Top 18 in Sales = 363 houses</div>`)[0];
+            popup_87c72e3a163197384422e023a192cada.setContent(html_d09b681e81528274691f0a35cc164a4b);
+        
+
+        marker_c192fe747d44aeed850516fb74053d5d.bindPopup(popup_87c72e3a163197384422e023a192cada)
+        ;
+
+        
+    
+    
+            var marker_3bbabcd5b5812f3bf17f9159294e2f52 = L.marker(
+                [47.721, -122.319],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_81c2dc8bc6c0e78d7d5553c5eae93aad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2766121465f7eabc4cbbecd8b4eabf8 = $(`<div id="html_a2766121465f7eabc4cbbecd8b4eabf8" style="width: 100.0%; height: 100.0%;">Zip Code: 98125, Latitude: 47.721000, Longitude: -122.319000,                  Top 19 in Sales = 363 houses</div>`)[0];
+            popup_81c2dc8bc6c0e78d7d5553c5eae93aad.setContent(html_a2766121465f7eabc4cbbecd8b4eabf8);
+        
+
+        marker_3bbabcd5b5812f3bf17f9159294e2f52.bindPopup(popup_81c2dc8bc6c0e78d7d5553c5eae93aad)
+        ;
+
+        
+    
+    
+            var marker_d86c9e5dd428ed1b9e980eb0e02d049e = L.marker(
+                [47.6561, -122.005],
+                {}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+    
+        var popup_2ca2522320c028aabb85acd9f1662483 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fda39c691bf6e5a32b86ad5695cd908f = $(`<div id="html_fda39c691bf6e5a32b86ad5695cd908f" style="width: 100.0%; height: 100.0%;">Zip Code: 98053, Latitude: 47.656100, Longitude: -122.005000,                  Top 20 in Sales = 361 houses</div>`)[0];
+            popup_2ca2522320c028aabb85acd9f1662483.setContent(html_fda39c691bf6e5a32b86ad5695cd908f);
+        
+
+        marker_d86c9e5dd428ed1b9e980eb0e02d049e.bindPopup(popup_2ca2522320c028aabb85acd9f1662483)
+        ;
+
+        
+    
+    
+            var heat_map_b499f8762c1e44d48b837fb3241230ea = L.heatLayer(
+                [[47.6648, -122.343], [47.3684, -122.031], [47.69, -122.292], [47.7073, -122.11], [47.6823, -122.368], [47.3663, -122.114], [47.7362, -122.179], [47.5474, -122.291], [47.3066, -122.371], [47.5707, -122.128], [47.7025, -122.341], [47.5059, -122.149], [47.7481, -122.3], [47.4276, -122.157], [47.6168, -122.045], [47.6477, -122.182], [47.5391, -122.07], [47.5301, -122.18], [47.721, -122.319], [47.6561, -122.005], [47.5822, -121.987], [47.3341, -122.282], [47.5714, -122.375], [47.3266, -122.169], [47.5747, -122.304], [47.5218, -122.357], [47.5636, -122.394], [47.5517, -121.998], [47.6303, -122.215], [47.529, -121.837], [47.6506, -122.391], [47.6113, -122.297], [47.5123, -122.337], [47.588, -122.116], [47.3097, -122.327], [47.7379, -122.233], [47.6221, -122.314], [47.5316, -122.233], [47.4075, -122.214], [47.7564, -122.144], [47.3813, -122.322], [47.67, -122.394], [47.4309, -122.191], [47.3739, -122.172], [47.7728, -122.386], [47.5009, -122.248], [47.5208, -122.393], [47.4889, -122.299], [47.445, -122.347], [47.6571, -122.281], [47.2086, -121.996], [47.4838, -121.714], [47.3089, -122.21], [47.7731, -122.08], [47.7663, -122.215], [47.7277, -121.962], [47.5474, -122.295], [47.6386, -122.36], [47.6525, -122.16], [47.6194, -122.151], [47.4427, -122.274], [47.3576, -122.277], [47.6929, -121.87], [47.4041, -122.451], [47.6354, -122.353], [47.6415, -122.315], [47.342, -122.025], [47.5385, -121.911], [47.4258, -122.322], [47.6172, -122.23]],
+                {"blur": 15, "max": 1.0, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_1f58526602e9ba4248a0c920978cd5fe);
+        
+</script>
+</html>
